@@ -51,7 +51,7 @@ def classify_audio_clip(clip):
 
 st.set_page_config(layout="wide")
 def main():
-    st.title("AI-Generated Voice Detection")
+    st.title("SecureX")
     #file uploader
     uploaded_file = st.file_uploader("Upload an audio file", type=["mp3"])
     if uploaded_file is not None:
